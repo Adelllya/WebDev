@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* основной контейнер */
+.ichigo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 100vh;
+    margin-right: 170px;
+}
+
+/* левый блок */
+.rukia-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin-bottom:350px;
+    margin-left:150px;
+    
+}
+.login-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* логотип */
+.bleach-logo {
+    width: 320px;
+    margin-bottom: 1px;
+}
+
+.your-name-box {
+    display: inline-block;
+    background-color: white;
+    width:400px;
+    margin-top:-250px;
+    margin-left: 14px;
+    margin-right: 15px;
+    padding:15px;
+    border-radius:8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
+    font-size: 14px;
+    
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+
+    box-shadow: inset 0 1px 2px rgba(104, 104, 104, 0.12);
+    background-color: #fff;
+}
+
+
+/* текст под логотипом */
+.orihime-text {
+    color: #373737;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    max-width: 500px;
+    margin-top: -12px;
+    margin-left: 30px;
+}
+
+/* фон страницы */
+.soul-society-bg {
+    background-color: rgb(242, 244, 247);
+}
+
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button1 {
+    width: 53%;
+    display: block;
+    margin: 25px auto 15px auto; 
+    padding: 13px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #42b72a;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,".SFNSText-Regular",sans-serif;
+    font-weight: 600;
+    border-radius: 6px;
+    color: white;
+}
+
+
+
+/* кнопки */
+.ichigo-login {
+    background: #0866ff;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:5px;
+}
+
+.rendzi-text-link {
+    display: block;
+    text-align: center;
+    margin-top:10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    color:#0866ff;
+    font-size:14px;
+}
+.rendzi-text-link:hover {
+    text-decoration: underline;
+}
+.rendzi-line {
+    align-items: center;
+    border-bottom: 1px solid #DADDE1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+
+
+.create-page-text {
+    margin-top:30px;
+    font-size: 14px;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.create-page-text a {
+    font-weight: 600;
+    color: #1c1e21;
+    text-decoration: none;
+}
+
+.create-page-text a:hover {
+    text-decoration: underline;
+}
+
+/*footer*/
+
+.fb-footer {
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    width:1512px;
+    
+    padding: 28px 250px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-top: -140px;
+    padding-top:20px
+}
+.fb-footer-inner {
+    width: 980px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 16.08px;
+    color: rgb(115, 115, 115);
+
+    direction: ltr;
+}
+display: block;
+    width: 980px;
+    height: 136px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 266px;
+    margin-right: 266px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 16.08px;
+    color: rgb(115, 115, 115);
+
+    direction: ltr;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+
+.footer-languages {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+
+.footer-languages a {
+    color: #737373;
+    text-decoration: none;
+    margin-right:15px;
+}
+
+.footer-languages a:hover {
+    text-decoration: underline;
+}
+
+/* кнопка + */
+.lang-more {
+    width: 35px;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    border-radius: 2px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #4b4f56;
+
+    cursor: pointer;
+    flex-shrink: 0; 
+}
+#byakuya {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+
+/* ===== MAIN LINKS ===== */
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #737373;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    font-size: 11px;
+    color: #737373;
+}
+
+
+@media (max-width: 600px) {
+    .fb-footer {
+        padding: 20px 12px;
+    }
+
+    .footer-links {
+        gap: 8px 12px;
+    }
+}
