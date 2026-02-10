@@ -64,7 +64,7 @@ input {
 }
 
 
-/* текст под логотипом */
+/*текст под логотипом */
 .orihime-text {
     color: #373737;
     font-family: Helvetica, Arial, sans-serif;
@@ -75,7 +75,7 @@ input {
     margin-left: 30px;
 }
 
-/* фон страницы */
+/*фон страницы */
 .soul-society-bg {
     background-color: rgb(242, 244, 247);
 }
@@ -115,6 +115,10 @@ button {
     font-weight: bold;
     font-size: 20px;
     border-radius:5px;
+}
+.ichigo-login:hover {
+    background-color: pink;
+    transform: scale(1.05);
 }
 
 .rendzi-text-link {
